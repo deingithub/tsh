@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+export x=$(mktemp)
+$SHELL
+rm $x
+unset x
